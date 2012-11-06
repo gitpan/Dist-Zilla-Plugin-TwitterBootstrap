@@ -13,6 +13,7 @@ my %WriteMakefileArgs = (
   "AUTHOR" => "Graham Ollis <plicease\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Config::INI::Reader" => 0,
+    "File::HomeDir::Test" => 0,
     "IO::Capture::Stdout" => 0,
     "Test::More" => 0
   },
@@ -37,7 +38,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

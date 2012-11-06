@@ -16,7 +16,7 @@ with 'Dist::Zilla::Role::FileGatherer';
 with 'Dist::Zilla::Role::Plugin';
 
 # ABSTRACT: Include a customized Twitter Bootstrap in your distribution
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 
 has js_include => (
@@ -185,6 +185,9 @@ __PACKAGE__->meta->make_immutable;
 
 1;
 
+
+
+
 =pod
 
 =head1 NAME
@@ -193,7 +196,7 @@ Dist::Zilla::Plugin::TwitterBootstrap - Include a customized Twitter Bootstrap i
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -352,6 +355,7 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
+
 
 __DATA__
 
