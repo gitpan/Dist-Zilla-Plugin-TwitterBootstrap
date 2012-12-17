@@ -16,7 +16,7 @@ with 'Dist::Zilla::Role::FileGatherer';
 with 'Dist::Zilla::Role::Plugin';
 
 # ABSTRACT: Include a customized Twitter Bootstrap in your distribution
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 
 has js_include => (
@@ -196,7 +196,7 @@ Dist::Zilla::Plugin::TwitterBootstrap - Include a customized Twitter Bootstrap i
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -376,5 +376,5 @@ img_include = [% img %]
 
 ;; uncomment and change to alter from default values
 [% FOR pair IN dl.vars -%]
-; var = [% pair.key %] = [% pair.value %]
+; vars = [% pair.key %] = [% pair.value %]
 [% END -%]
